@@ -2,19 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
-import { 
-  Phone, 
-  Menu, 
-  X, 
-  ChevronDown, 
-  MessageCircle, 
-  Truck, 
-  Home,
-  Users,
-  BookOpen,
-  MapPin,
-  WhatsApp
-} from 'lucide-react';
+import { Phone, Menu, X, ChevronDown, MessageCircle, Truck, Home, Users, BookOpen, MapPin, Apple as WhatsApp } from 'lucide-react';
 import { comuniCatania, getSlugFromComune } from '@/data/comuni';
 
 interface LayoutProps {
